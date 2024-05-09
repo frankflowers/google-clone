@@ -1,45 +1,55 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="CSS/main.css"> <!-- conexion al css-->
+<!DOCTYPE html> <!-- Declaración del tipo de documento. Define que este documento es HTML5 -->
+<html lang="en"> <!-- Elemento raíz de una página web. El atributo 'lang' define el idioma del contenido del documento -->
+
+<head> <!-- Contiene metadatos/información sobre el documento HTML -->
+    <meta charset="UTF-8"> <!-- Define la codificación de caracteres para el documento -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Hace que la página web sea responsiva -->
+    <title>GOOGLE CLONE</title> <!-- Define el título del documento, se muestra en la barra de título del navegador -->
+    <link rel="stylesheet" href="CSS/main.css"> <!-- Enlaza la hoja de estilos CSS con el documento HTML -->
 </head>
-<body>
-    <header><!--aqui inicia lo que va a ver el usuario -->      
-            <nav>
-                <ul class="nav-right-section">
 
-                        <li>
-                            <a href="">Gmail</a>                   
-                        </li>
+<body> <!-- Contiene el contenido visible de la página web -->
+    <header> <!-- Define un contenedor de contenido introductorio o de navegación -->
+        <nav> <!-- Define un conjunto de enlaces de navegación -->
+            <ul class="nav-right-section"> <!-- Define una lista desordenada. La clase se utiliza para aplicar estilos CSS -->
 
-                        <li>
-                              <a href="">Imagenes</a>
-                        
-                        </li>
-                        
-                        <li class="menu-icon">
-                            <a href=""></a>
-                        </li>
-                        <li>
-                            <a href=""><img 
-                            src="https://lh3.google.com/u/0/ogw/AF2bZygbbfsrFoI4sJm8WvCGlxnHn668m93IiQ10o9RVGaMmrw=s32-c-mo" srcset="https://lh3.google.com/u/0/ogw/AF2bZygbbfsrFoI4sJm8WvCGlxnHn668m93IiQ10o9RVGaMmrw=s32-c-mo 1x, https://lh3.google.com/u/0/ogw/AF2bZygbbfsrFoI4sJm8WvCGlxnHn668m93IiQ10o9RVGaMmrw=s64-c-mo "
-                                alt=" "></a>
-                                
-                        </li>
-                    
+                <li> <!-- Define un elemento de la lista -->
+                    <a href="">Gmail</a> <!-- Define un enlace -->
+                </li>
 
+                <li>
+                    <a href="">Imagenes</a>
+                </li>
+                
+                <li class="menu-icon">
+                    <a href=""></a>
+                </li>
+                <li>
+                    <a href=""><img 
+                    src="https://lh3.google.com/u/0/ogw/AF2bZygbbfsrFoI4sJm8WvCGlxnHn668m93IiQ10o9RVGaMmrw=s32-c-mo" srcset="https://lh3.google.com/u/0/ogw/AF2bZygbbfsrFoI4sJm8WvCGlxnHn668m93IiQ10o9RVGaMmrw=s32-c-mo 1x, https://lh3.google.com/u/0/ogw/AF2bZygbbfsrFoI4sJm8WvCGlxnHn668m93IiQ10o9RVGaMmrw=s64-c-mo "
+                        alt=" "></a> <!-- Define una imagen con un enlace -->
+                </li>
+            </ul>
+        </nav>
 
-                </ul>
+        <main> <!-- Define el contenido principal único dentro de un documento -->
+            <section class="main-logo"> <!-- Define una sección en un documento -->
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"  alt=""> <!-- Define una imagen -->
+            </section>
 
+            <section class="main-input">
+                <div class="main-input-container">
+                    <span class="search-icon"></span>
+                    <input type="text"> <!-- Define un campo de entrada de texto -->
+                    <a class="micro-icon" href=""></a>
+                </div>
+            </section>
 
-
-            </nav>
-
-
+            <section class="main-buttons">
+                <div><button>Buscar con Google</button></div> <!-- Define un botón -->
+                <div><button>Voy a tener suerte</button></div>
+            </section>
+        </main>
     </header>
-    
 </body>
 </html>
